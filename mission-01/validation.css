@@ -23,7 +23,7 @@ a {
 /* Link Structure */
 .serviceLink a {
   display: block;
-  background: url(/validation_icon\ 2.svg) no-repeat 16px 10px;
+  background: url(../images/validation_icon\ 2.svg) no-repeat 16px 10px;
   width: 100%;
   height: 100%;
   border-radius: inherit;
