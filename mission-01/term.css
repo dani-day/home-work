@@ -1,0 +1,60 @@
+/* Base Settings */
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+
+body,
+body * {
+  box-sizing: border-box;
+  line-height: 21px;
+  font-family: 'Pretendard';
+}
+
+h2,
+dl,
+dt,
+dd,
+img {
+  margin: 0;
+}
+
+.term-box {
+  background: linear-gradient(180deg, #cccccc 0%, #eeeeee 100%);
+  border: 1px solid #a3a3a3;
+  border-radius: 5px;
+  width: 250px;
+  height: 259px;
+  padding: 16px;
+}
+
+h2 {
+  margin-bottom: 16px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.term-set {
+  margin-bottom: 12px;
+}
+
+.term-box :first-child img:first-child {
+  margin: 0 16px 0 0;
+  display: block;
+  float: left;
+}
+
+.term-box :last-child img:first-child {
+  margin: 0 0 0 16px;
+  display: block;
+  float: right;
+}
+
+.term-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #296897;
+  margin-bottom: 4px;
+}
+
+.term-description {
+  font-size: 14px;
+  font-weight: 400;
+}
