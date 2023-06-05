@@ -1,7 +1,10 @@
 /* Base Settings*/
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+
 body,
 body * {
   box-sizing: border-box;
+  font-family: 'Pretendard';
 }
 
 a {
@@ -28,4 +31,6 @@ a {
   height: 100%;
   border-radius: inherit;
   padding: 10px 0 0 36px;
+  font-size: 14px;
+  font-weight: 400;
 }
