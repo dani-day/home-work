@@ -35,13 +35,13 @@ h2 {
   margin-bottom: 12px;
 }
 
-.term-box :first-child img:first-child {
+.term-box :nth-child(2) .term-image {
   margin: 0 16px 0 0;
   display: block;
   float: left;
 }
 
-.term-box :last-child img:first-child {
+.term-box :last-child .term-image {
   margin: 0 0 0 16px;
   display: block;
   float: right;
@@ -57,4 +57,10 @@ h2 {
 .term-description {
   font-size: 14px;
   font-weight: 400;
+}
+
+.clear::after {
+  content: '';
+  display: block;
+  clear: both;
 }
