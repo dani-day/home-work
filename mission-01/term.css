@@ -35,13 +35,13 @@ h2 {
   margin-bottom: 12px;
 }
 
-.term-box :nth-child(2) .term-image {
+.term-box :nth-child(2) img {
   margin: 0 16px 0 0;
   display: block;
   float: left;
 }
 
-.term-box :last-child .term-image {
+.term-box :last-child img {
   margin: 0 0 0 16px;
   display: block;
   float: right;
