@@ -1,0 +1,135 @@
+/* 초기화 및 기본 세팅 */
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css');
+
+body,
+body * {
+  box-sizing: border-box;
+  font-family: 'Pretendard';
+}
+
+fieldset,
+div,
+ul,
+li,
+a {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+}
+
+legend {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+/* 로그인 박스 그림자 생성 */
+.loginShadow {
+  background: #aaa;
+  border-radius: 5px;
+  width: 15.25rem;
+  height: 10.0625rem;
+}
+
+/* 로그인 박스 */
+.loginContainer {
+  display: flow-root;
+  background: linear-gradient(90deg, #ed552f 0%, #e8852e 100%);
+  border-radius: inherit;
+  width: inherit;
+  height: inherit;
+  position: relative;
+  top: -5px;
+  left: -5px;
+}
+
+/* 로그인 제목 */
+h1 {
+  display: block;
+  line-height: 23px;
+  margin: 0.75rem 0.75rem 0.5rem 0.75rem;
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffff00;
+}
+
+/* 로그인 폼 내부 하얀색 박스 */
+.loginInput_whitebox {
+  background: white;
+  margin: 0 0.75rem 0.75rem 0.75rem;
+  padding: 0.5rem 0.75rem 0 0.75rem;
+  position: relative;
+  width: 13.75rem;
+  height: 6.625rem;
+  border-radius: inherit;
+}
+
+/* 아이디 라벨 및 인풋 서식 아래에만 마진값 설정 */
+.loginForm div:nth-child(2) {
+  margin-bottom: 4px;
+}
+
+/* 라벨 */
+.labelIDPW {
+  display: block;
+  width: 3.5rem;
+  line-height: 24px;
+  float: left;
+  font-size: 14px;
+}
+
+/* 인풋 */
+.inputIDPW {
+  width: 5.625rem;
+  height: 1.5rem;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 1.5px 0 1.5px 8px;
+}
+
+/* 버튼 */
+.buttonLogin {
+  background: #ed552f;
+  width: 2.625rem;
+  height: 3.3125rem;
+  padding: 0.25rem;
+  border-radius: 5px;
+  border-style: none;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+  position: absolute;
+  right: 0.75rem;
+  top: 0.5rem;
+}
+
+/* 회원가입, 아이디 비밀번호 찾기 리스트 */
+ul {
+  display: block;
+  width: 196px;
+  height: 37px;
+  margin-top: 8px;
+  border-top: 1px solid #ccc;
+}
+
+/* 회원가입, 아이디 비밀번호 아이템 공통 */
+li {
+  font-size: 13px;
+  font-weight: 400;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* 회원가입 */
+.join {
+  float: left;
+}
+
+/* 아이디 비밀번호 찾기 */
+.forgot {
+  float: right;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>로그인</title>
+    <link rel="stylesheet" href="./login.css" />
+  </head>
+  <body>
+    <div class="loginShadow">
+      <div class="loginContainer">
+        <h1 tabindex="1">로그인</h1>
+        <div class="loginInput_whitebox">
+          <!-- <div class="loginInput_set"> -->
+          <form action="/" method="POST" class="loginForm">
+            <fieldset>
+              <legend>로그인 폼</legend>
+              <div class="loginInput__group">
+                <label for="idInput" class="labelIDPW" tabindex="2">아이디</label>
+                <input type="text" id="idInput" name="idInput" required class="inputIDPW" placeholder="euid@euid.dev" tabindex="3" />
+              </div>
+              <div class="loginInput__group">
+                <label for="pwInput" class="labelIDPW" tabindex="4">비밀번호</label>
+                <input type="text" id="pwInput" name="idInput" required class="inputIDPW" placeholder="8자리 이상" minlength="8" tabindex="5" />
+              </div>
+              <button type="submit" class="buttonLogin">로그인</button>
+            </fieldset>
+          </form>
+          <ul class="memberService">
+            <li class="join"><a href="/">회원가입</a></li>
+            <li class="forgot"><a href="/">아이디 비밀번호 찾기</a></li>
+          </ul>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
