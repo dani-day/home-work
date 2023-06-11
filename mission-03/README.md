@@ -2,7 +2,7 @@
 
 ## 1. UI Screenshot
 
-<img src="./assets_for_readme/transition과제영상.gif" width="300px">
+<img src="./assets_for_readme/transition과제영상.gif">
 
 <br>
 
