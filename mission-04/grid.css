@@ -23,14 +23,14 @@ span {
 .newsContainer {
   display: grid;
   width: 380px;
-  grid-column: 2fr;
+  grid-column: 3fr;
   grid-row: 4fr;
   grid-gap: 12px 17px;
   grid-template-areas:
-    "news more"
-    "line line"
-    "image title"
-    "image summary";
+    "news more more"
+    "line line ."
+    "image title title"
+    "image summary summary";
   font-size: 14px;
 }
 
@@ -51,6 +51,7 @@ span {
 .title {
   grid-area: title;
   font-weight: 700;
+  margin-top: 12px;
   margin-bottom: 4px;
   justify-items: start;
 }
@@ -59,10 +60,12 @@ span {
   grid-area: image;
   justify-items: center;
   text-align: center;
+  margin-top: 12px;
 }
 
 .image img {
-  width: 112px;
+  box-shadow: 0px 15px 15px 5px #aaaaaa;
+  margin-bottom: 16px;
 }
 
 .date {
@@ -74,6 +77,7 @@ span {
 
 .summary {
   grid-area: summary;
+  text-align: justify;
 }
 
 .more {
